@@ -87,3 +87,12 @@ public class CustomViewGroup extends ViewGroup {
 </resources>
 ```
 
+Recovering from custom launcher
+-------------------------------
+
+You can recover using adb shell command:
+
+```groovy
+adb shell am start -a android.intent.action.MAIN 
+```
+
